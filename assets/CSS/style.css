@@ -1,0 +1,493 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  font-size: 2rem;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.container-fluid {
+  background-color: #f7f3f3;
+  height: 100%;
+}
+
+.socialMediaIcons {
+  display: none;
+}
+
+.navItem {
+  position: fixed;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  gap: 0;
+  color: rgb(51, 47, 47);
+  font-size: 3.6rem;
+  padding: 4rem;
+  text-align: center;
+  background-color: #f7f3f3;
+}
+
+.navItem.active {
+  left: 0;
+}
+
+.navItem li {
+  padding: 2rem;
+  border: 3px solid gainsboro;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.navItem.active li:hover {
+  border: 3px solid red;
+}
+
+.navItem.active li a:focus {
+  border: 3px solid green;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.humgurger {
+  display: block;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+
+.humgurger .bar {
+  background-color: #272a31;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.humgurger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.humgurger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.humgurger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.introduction {
+  margin-top: 6rem;
+  line-height: 4rem;
+}
+
+footer p {
+  display: none;
+}
+
+.introduction p {
+  margin-left: 5.5rem;
+  font-size: 2.5rem;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.secondHeader {
+  background-image: url(/assets/images/red-bg.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 5.5rem;
+  line-height: 4rem;
+}
+
+#second-p {
+  width: 90%;
+  max-width: 100%;
+  border: 5px solid white;
+  color: #272a31;
+  padding: 1rem;
+  font-family: "Lato", cursive;
+  margin-top: 5rem;
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+
+.introduction img {
+  width: 89vw;
+  height: 27vh;
+  margin-bottom: 5rem;
+  margin-left: 5.5rem;
+  margin-top: 20px;
+}
+
+.navItem .active {
+  width: 100%;
+}
+
+.mainProgram {
+  text-align: center;
+  background-image: url(/assets/images/mainProgram-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+}
+
+hr {
+  width: 80px;
+  color: #ec5242;
+  background-color: #ec5242;
+}
+
+.mainProgram h3 {
+  margin-top: 6rem;
+}
+
+.card {
+  width: 93%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  backdrop-filter: contrast(0.5);
+  overflow: hidden;
+  margin-left: 2.5rem;
+  padding-left: 10px;
+}
+
+.card :hover {
+  border: 3px solid;
+}
+
+.card :focus-visible {
+  border: 3px solid;
+}
+
+.card img {
+  height: 10vh;
+  width: 11vw;
+  padding-top: 1rem;
+}
+
+.card-title {
+  color: #ec5242;
+  text-align: center;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+
+.card-text {
+  font-family: "Lato", cursive;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  text-align: start;
+  font-size: 1.7rem;
+  line-height: 2.9rem;
+}
+
+#wholeProgram {
+  text-decoration-line: underline;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.sports {
+  text-align: center;
+}
+
+.sports h2 {
+  margin-top: 5rem;
+}
+
+.partner {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    font-size: 2rem;
+    font-family: "COCOGOOSE", sans-serif;
+  }
+
+  .container-fluid {
+    background-color: #f7f3f3;
+    height: 100%;
+  }
+
+  .socialMediaIcons {
+    display: block;
+  }
+
+  .socialMediaIcons .icon-bar {
+    padding: 1rem;
+    margin-right: 7rem;
+  }
+
+  .socialMediaIcons .icon-bar a {
+    color: white;
+    font-family: "COCOGOOSE", cursive;
+    font-family: "Lato", cursive;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .socialMediaIcons .icon-bar a:hover {
+    text-decoration: wavy;
+    font-size: larger;
+    border: 2px solid darkred;
+    background-color: #ec5242;
+  }
+
+  .socialMediaIcons .icon-bar a:focus {
+    border: 3px solid red;
+    text-decoration: wavy;
+    font-size: larger;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .navbar-brand img {
+    width: 7vw;
+    height: 6vh;
+    margin-right: 53rem;
+  }
+
+  .humgurger {
+    display: none;
+  }
+
+  .navbar-header {
+    float: left;
+    background-color: white;
+    margin-top: -2rem;
+  }
+
+  #navMenu {
+    font-size: 1.5rem;
+    font-family: 'Lato', cursive;
+    display: flex;
+    position: relative;
+    left: 0;
+    padding-top: 0;
+    background-color: white;
+    margin-top: -16px;
+  }
+
+  #navMenu li {
+    border: none;
+    width: initial;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navMenu li a {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 1rem;
+  }
+
+  .navItem.active {
+    width: auto;
+  }
+
+  footer p {
+    font-size: 2.7rem;
+    font-family: "Lato", sans-serif;
+    padding-top: 5rem;
+    text-align: center;
+    display: block;
+  }
+
+  .introduction p {
+    margin-left: 5.5rem;
+    font-size: 4rem;
+    color: #ec5242;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+  }
+
+  .introduction .secondHeader {
+    background-image: url(/assets/images/red-bg.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 5.5rem;
+    line-height: 6rem;
+    font-size: 5rem;
+  }
+
+  #second-p {
+    width: 50%;
+    max-width: 100%;
+    border: 5px solid white;
+    color: #272a31;
+    padding: 1rem;
+    font-family: "Lato", cursive;
+    margin-top: 5rem;
+    font-size: 2.7rem;
+    line-height: 4rem;
+  }
+
+  .card {
+    width: 20%;
+    max-width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    backdrop-filter: contrast(0.5);
+    height: 46.2rem;
+  }
+
+  .card img {
+    height: 13vh;
+    width: 13vw;
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .card-title {
+    color: #ec5242;
+    text-align: left;
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .card-text {
+    font-family: "Lato", cursive;
+    text-align: start;
+    font-size: 1.9rem;
+    line-height: 3.3rem;
+  }
+
+  #wholeProgram {
+    text-decoration-line: underline;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .sports .card1 {
+    width: 60%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    height: 60rem;
+  }
+
+  .card1 img {
+    width: 60vw;
+    height: 29vh;
+    margin: 4rem;
+  }
+
+  .card2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card2 h3 {
+    display: contents;
+    color: #ec5242;
+    margin-top: 10rem;
+    font-family: "COCOGOOSE", sans-serif;
+  }
+
+  .card2 p {
+    font-family: "Lato", sans-serif;
+    padding: 2rem;
+    line-height: 2.9rem;
+    font-size: 1.9rem;
+  }
+
+  .partner {
+    text-align: center;
+    margin-top: 0;
+    background-color: #484141;
+    color: white;
+    padding-bottom: 7rem;
+    display: block;
+  }
+
+  .partner h3 {
+    font-family: "Lato", sans-serif;
+    margin-top: 1rem;
+    padding-top: 4rem;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .partner .mozilla {
+    font-family: "Titan One", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    padding-right: 10rem;
+  }
+
+  .partner .google {
+    font-family: "Lato", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    padding-right: 10rem;
+  }
+
+  .partner .naver {
+    font-family: "Titan One", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    margin-right: 3rem;
+  }
+
+  .partner .daumkakao {
+    font-family: "Lato", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    padding-right: 10rem;
+  }
+
+  .partner .airbnb {
+    font-family: monospace;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+  }
+
+  footer {
+    text-align: center;
+    display: block;
+  }
+}
