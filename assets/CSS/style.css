@@ -289,24 +289,32 @@ footer {
   .container-fluid {
     background-color: #f7f3f3;
     height: 100%;
+    overflow: hidden;
+  }
+
+  #home {
+    min-height: 20px;
+    overflow: hidden;
   }
 
   .socialMediaIcons {
-    display: block;
+    display: flex;
+    background-color: #272a31;
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+    flex-direction: row-reverse;
+    align-items: center;
   }
 
   .socialMediaIcons .icon-bar {
-    padding: 1rem;
     margin-right: 7rem;
   }
 
   .socialMediaIcons .icon-bar a {
-    color: white;
-    font-family: "COCOGOOSE", cursive;
-    font-family: "Lato", cursive;
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
     padding-left: 1rem;
-    font-size: 1.5rem;
-    padding-right: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .socialMediaIcons .icon-bar a:hover {
@@ -325,17 +333,19 @@ footer {
   #navbar {
     display: flex;
     justify-content: space-between;
+    margin-top: -20px;
   }
 
   .navbar-brand {
-    display: block;
-    background-color: #272a31;
+    display: flex;
+    min-height: 82px;
+    margin-left: 6rem;
   }
 
   .navbar-brand img {
-    width: 7vw;
-    height: 6vh;
-    margin-right: 53rem;
+    width: 52px;
+    height: 40px;
+    align-self: center;
   }
 
   .humgurger {
@@ -345,31 +355,40 @@ footer {
   .navbar-header {
     float: left;
     background-color: white;
-    margin-top: -2rem;
   }
 
   #navMenu {
     font-size: 1.5rem;
-    font-family: "Lato", cursive;
+    font-family: "Lato", sans-serif;
     display: flex;
     position: relative;
     left: 0;
     padding-top: 0;
     background-color: white;
-    margin-top: -16px;
+    justify-content: end;
   }
 
   #navMenu li {
     border: none;
     width: initial;
-    height: 22px;
     margin: 0;
     padding: 0;
   }
 
   #navMenu li a {
-    font-family: "COCOGOOSE", sans-serif;
     font-size: 1rem;
+    color: #272a31;
+    font-family: "Lato", sans-serif;
+    padding: 33px;
+    padding-bottom: 0;
+  }
+
+  #navMenu li a:hover {
+    font-size: 1.3rem;
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    background-color: #fff;
+    align-self: center;
   }
 
   .navItem.active {
@@ -393,12 +412,12 @@ footer {
   }
 
   .introduction .secondHeader {
-    background-image: url("../images/red-bg.jpg");
-    background-repeat: repeat;
+    background-image: url("../images/bg2.jpg");
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
     margin-left: 5.5rem;
@@ -409,13 +428,16 @@ footer {
   #second-p {
     width: 50%;
     max-width: 100%;
-    border: 5px solid white;
+    border: 1px solid #d3d3d3;
     color: #272a31;
-    padding: 1rem;
-    font-family: "Lato", cursive;
+    padding: 1.3rem;
+    font-family: "Lato", sans-serif;
     margin-top: 5rem;
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     line-height: 4rem;
+    background-image: url('../images/Nutrition-Background.jpg');
+    background-repeat: no-repeat;
+    
   }
 
   .card {
