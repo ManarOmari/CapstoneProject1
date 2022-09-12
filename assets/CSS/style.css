@@ -135,7 +135,7 @@ footer p {
 
 .mainProgram {
   text-align: center;
-  background-image: url(/assets/images/mainProgram-bg.jpg);
+  background-image: url(./images/mainProgram-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
