@@ -96,12 +96,13 @@ footer p {
 }
 
 .secondHeader {
-  background-image: url('../images/red-bg.jpg');
-  background-repeat: repeat;
+  background-image: url('../images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "Cocogoose", sans-serif;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
   margin-left: 5.5rem;
