@@ -187,7 +187,6 @@ hr {
 
 .card-title {
   color: #ec5242;
-  text-align: center;
   font-family: "COCOGOOSE", sans-serif;
   font-size: 1.7rem;
   margin-left: 2rem;
@@ -272,6 +271,7 @@ hr {
 .sports .card2 p {
   font-size: 1.3rem;
 }
+
 .partner {
   display: none;
 }
