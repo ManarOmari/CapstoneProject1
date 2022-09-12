@@ -1,7 +1,7 @@
 const sports = document.querySelector('.sports');
 const row = document.createElement('div');
 row.className = 'row';
-const x = 1;
+let x = 1;
 
 const sport = [
   {
@@ -38,7 +38,6 @@ const sport = [
 
 function createCard() {
   for (let i = 0; i < sport.length; i += 1) {
-    x = x + i;
     const col = document.createElement('div');
     col.className = 'col-sm-6';
     const card = document.createElement('div');
@@ -51,7 +50,7 @@ function createCard() {
     h.innerHTML = sport[i].title;
     const redTxt = document.createElement('p');
     redTxt.classList.add('redTxt');
-    redTxt.innerHTML = 'Ecsersise ' + x;
+    redTxt.innerHTML = 'Ecsersise ' + (i + 1);
     const horizantalLine = document.createElement('hr');
     horizantalLine.className = 'horizantalLine';
     const desc = document.createElement('p');
