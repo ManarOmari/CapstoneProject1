@@ -1,4 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
 * {
   font-size: 2rem;
@@ -96,7 +97,7 @@ footer p {
 }
 
 .secondHeader {
-  background-image: url(/assets/images/red-bg.jpg);
+  background-image: url('/assets/images/red-bg.jpg');
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
