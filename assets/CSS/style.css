@@ -438,7 +438,6 @@ footer {
     line-height: 4rem;
     background-image: url('../images/Nutrition-Background.jpg');
     background-repeat: no-repeat;
-    
   }
 
   .card {
@@ -473,7 +472,7 @@ footer {
   }
 
   .card:hover {
-   border: 2px solid #d3d3d3;
+     border: 2px solid #d3d3d3;
   }
 
   #wholeProgram {
