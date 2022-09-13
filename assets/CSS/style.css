@@ -148,7 +148,7 @@ footer p {
   background-size: cover;
   color: #d3d3d3;
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 hr {
@@ -396,14 +396,6 @@ footer {
     width: auto;
   }
 
-  footer p {
-    font-size: 2.7rem;
-    font-family: "Lato", sans-serif;
-    padding-top: 5rem;
-    text-align: center;
-    display: block;
-  }
-
   .introduction p {
     margin-left: 5.5rem;
     font-size: 4rem;
@@ -436,7 +428,7 @@ footer {
     margin-top: 5rem;
     font-size: 1.7rem;
     line-height: 4rem;
-    background-image: url('../images/Nutrition-Background.jpg');
+    background-image: url("../images/Nutrition-Background.jpg");
     background-repeat: no-repeat;
   }
 
@@ -522,8 +514,8 @@ footer {
   .partner {
     text-align: center;
     margin-top: 0;
-    background-color: #484141;
-    color: white;
+    background-color: #272a31;
+    color: #d3d3d3;
     padding-bottom: 7rem;
     display: block;
   }
@@ -539,44 +531,74 @@ footer {
   .partner .mozilla {
     font-family: "Titan One", cursive;
     text-align: left;
-    color: grey;
+    color: #d3d3d3;
     font-size: 4rem;
     padding-right: 10rem;
   }
 
   .partner .google {
-    font-family: "Lato", cursive;
+    font-family: monospace;
     text-align: left;
-    color: grey;
+    color: #d3d3d3;
     font-size: 4rem;
     padding-right: 10rem;
   }
 
   .partner .naver {
-    font-family: "Titan One", cursive;
+    font-family: "Anton", "COCOGOOSE", sans-serif;
     text-align: left;
-    color: grey;
+    color: #d3d3d3;
     font-size: 4rem;
     margin-right: 3rem;
   }
 
   .partner .daumkakao {
-    font-family: "Lato", cursive;
+    font-family: "Lato", sans-serif;
     text-align: left;
-    color: grey;
-    font-size: 4rem;
+    color: #d3d3d3;
+    font-size: 3rem;
     padding-right: 10rem;
   }
 
   .partner .airbnb {
     font-family: monospace;
     text-align: left;
-    color: grey;
-    font-size: 4rem;
+    color: #d3d3d3;
+    font-size: 3rem;
   }
 
   footer {
-    text-align: center;
+    display: flex;
+    background-color: #d3d3d3;
+  }
+
+  .left-side {
+   display: block;
+   margin: 8rem;
+  }
+
+  .left-side p{
+    display: inline-block;
+    margin: 0;
+    line-height: 1.6rem;
+    text-align: left;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+   }
+
+  .right-side {
     display: block;
+    margin: 8rem;
+    font-weight: 800;
+  }
+
+  .right-side p{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .right-side :nth-child(2){
+  font-weight: 200;
   }
 }
