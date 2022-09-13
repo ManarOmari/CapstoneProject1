@@ -492,6 +492,7 @@ footer {
 
   .sports .col-sm-6 .card1 img {
     width: 14vw;
+    height: auto;
   }
 
   .card2 {
