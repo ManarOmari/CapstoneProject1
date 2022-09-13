@@ -479,18 +479,18 @@ footer {
   }
 
   .sports {
-   background-color: #d3d3d3;
-   background-image: none;
+    background-color: #d3d3d3;
+    background-image: none;
   }
 
   .sports .card1 {
-   width: 100%;
-   margin-left: 5rem;
-   margin-bottom: 0;
-   padding-bottom: 1px;
+    width: 100%;
+    margin-left: 5rem;
+    margin-bottom: 0;
+    padding-bottom: 1px;
   }
 
-.sports .col-sm-6 .card1 img {
+  .sports .col-sm-6 .card1 img {
     width: 14vw;
   }
 
@@ -587,7 +587,7 @@ footer {
     text-align: left;
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 900;
-   }
+  }
 
   .right-side {
     display: block;
@@ -595,13 +595,13 @@ footer {
     font-weight: 800;
   }
 
-  .right-side p{
+  .right-side p {
     display: block;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
   }
 
-  .right-side :nth-child(2){
-  font-weight: 200;
+  .right-side :nth-child(2) {
+    font-weight: 200;
   }
 }
