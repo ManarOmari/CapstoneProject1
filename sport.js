@@ -53,7 +53,7 @@ function createCard() {
     div2.className = 'card2';
     const h = document.createElement('h3');
     h.innerHTML = sport[i].title;
-    const redTxt = document.createElement("p");
+    const redTxt = document.createElement('p');
     redTxt.classList.add('redTxt');
     redTxt.innerHTML = 'Ecsersise ';
     const horizantalLine = document.createElement('hr');
