@@ -180,6 +180,72 @@ hr {
   align-self: center;
 }
 
+.healthyRecipes {
+  background-color: #fff;
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.healthyRecipes h2 {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.healthyRecipes p {
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+}
+
+.recipes1 {
+  margin-top: 2rem;
+  height: 40rem;
+}
+
+.recipeImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.sepia {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+  width: 70%;
+  border: 1px solid;
+}
+
+.centerd {
+  display: flex;
+  flex-direction: column;
+  transform: translate(44%, -105%);
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  justify-items: center;
+  width: 50%;
+  text-align: justify;
+}
+
+.centerd h3 {
+  font-weight: 700;
+}
+
+.centerd p {
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+}
+
 .partner {
   text-align: center;
   margin-top: 0;
