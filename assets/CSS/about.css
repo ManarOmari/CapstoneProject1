@@ -219,7 +219,6 @@ hr {
 }
 
 .sepia {
-  width: 100%;
   height: auto;
   opacity: 0.3;
   width: 70%;
@@ -301,8 +300,35 @@ hr {
 }
 
 footer {
+  display: flex;
+  background-color: #d3d3d3;
+}
+
+.left-side {
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 6rem;
+}
+
+.left-side p {
+  display: inline-block;
+  margin: 0;
+  line-height: 1.6rem;
+  text-align: left;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 900;
+}
+
+.right-side {
   display: block;
-  text-align: center;
+  margin-top: 8rem;
+  margin-left: 6rem;
+}
+
+.right-side p {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 768px) {
