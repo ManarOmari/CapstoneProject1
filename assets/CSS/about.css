@@ -1,12 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
 * {
   font-size: 2rem;
-  font-family: "Lato", sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 .container-fluid {
+  background-color: #d3d3d3;
   background-image: url("../images/Nutrition-Background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
 }
 
 .socialMediaIcons {
@@ -28,6 +32,7 @@
 
 .navItem.active {
   left: 0;
+  width: 100%;
 }
 
 .navItem li {
@@ -35,6 +40,13 @@
   border: 3px solid gainsboro;
   margin-top: 2rem;
   margin-left: 2rem;
+}
+
+.introduction .third-p span a {
+  font-size: 1.4rem;
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  display: block;
 }
 
 .navItem.active li:hover {
@@ -78,223 +90,260 @@
 }
 
 .introduction {
-  margin-top: 6rem;
-  line-height: 4rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
 footer p {
-  display: none;
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  padding-top: 5rem;
+  display: inline-block;
 }
 
 .introduction p {
-  margin-left: 5.5rem;
   font-size: 2.5rem;
   color: #ec5242;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
 }
 
 .secondHeader {
-  background-image: url("../images/bg2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  color: #ec5242;
   text-transform: uppercase;
   font-family: "Cocogoose", sans-serif;
   font-weight: 800;
-  -webkit-font-smoothing: antialiased;
-  margin-left: 5.5rem;
-  line-height: 4rem;
+  display: flex;
 }
 
 #second-p {
-  width: 86%;
+  width: 85%;
   max-width: 100%;
-  border: 3px solid white;
+  border: 1px solid #d3d3d3;
   color: #272a31;
-  padding: 1rem;
-  font-family: "Lato", sans-serif;
-  background-image: url("../images/Nutrition-Background.jpg");
-  background-repeat: no-repeat;
+  padding: 0.3rem;
   margin-top: 5rem;
-  font-size: 1.6rem;
-  line-height: 3rem;
-}
-
-.introduction h3 {
-  font-family: "COCOGOOSE", sans-serif;
-  color: #272a31;
-  margin-left: 5.5rem;
-  line-height: 2rem;
-}
-
-.introduction h5 {
-  font-family: "Lato", sans-serif;
-  margin-bottom: 5rem;
-  margin-left: 5.5rem;
-  font-weight: 700;
-  color: #272a31;
-}
-
-.navItem .active {
-  width: 100%;
-}
-
-.mainProgram {
+  font-size: 1.7rem;
+  background-color: #fff;
   text-align: center;
-  background-image: url("../images/mainProgram-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #d3d3d3;
-  height: 100%;
+  margin-left: 5.5rem;
+}
+
+.introduction .third-p {
+  font-size: 1.2rem;
+  color: #272a31;
+  margin-top: 4rem;
   font-family: "Lato", sans-serif;
+  margin-left: 13rem;
+  width: 50%;
+}
+
+.introduction .third-p span {
+  text-decoration: underline;
+  font-weight: 800;
 }
 
 hr {
-  width: 37px;
-  border: 2px solid #ec5342;
-}
-
-.mainProgram h3 {
-  margin-top: 6rem;
-  color: #d3d3d3;
-}
-
-.card {
-  width: 93%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 2rem;
-  backdrop-filter: contrast(0.5);
-  overflow: hidden;
-  margin-left: 2.5rem;
-  padding-left: 10px;
-}
-
-.card :hover {
-  border: 3px solid;
-}
-
-.card :focus-visible {
-  border: 3px solid;
-}
-
-.card img {
-  height: 18vh;
-  width: 18vw;
-  padding-top: 1rem;
-}
-
-.card-title {
+  width: 80px;
   color: #ec5242;
-  font-family: "COCOGOOSE", sans-serif;
-  font-size: 1.7rem;
-  margin-left: 2rem;
-  text-align: start;
-  padding-top: 2rem;
-}
-
-.card-text {
-  font-family: "Lato", sans-serif;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  text-align: start;
-  font-size: 1.7rem;
-  line-height: 2.9rem;
-  color: #d3d3d3;
-}
-
-#wholeProgram {
-  color: #d3d3d3;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  margin-top: 5rem;
-  width: 50%;
   background-color: #ec5242;
-  padding: 15px;
-  margin-left: 15rem;
-  margin-bottom: 5rem;
 }
 
-.sports {
+.logo {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
-.sports h2 {
-  margin-top: 5rem;
+.logo h2 {
+  padding-top: 5rem;
   font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 3.7rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+.logo p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
   color: #272a31;
+  font-size: 1.5rem;
 }
 
-.sports .col-sm-6 .card1 {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+.logo img {
+  border: 2px solid #d3d3d3;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+  width: 80%;
+  height: 50vh;
+  align-self: center;
 }
 
-.sports .col-sm-6 .card1 img {
-  width: 30%;
-  height: 20%;
-}
-
-.sports .card2 {
+.healthyRecipes {
+  background-color: #fff;
+  border-top: 1px solid #d3d3d3;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.healthyRecipes h2 {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.healthyRecipes p {
   color: #272a31;
   font-family: "Lato", sans-serif;
-  padding-left: 2rem;
+  font-size: 1.6rem;
 }
 
-.sports .card2 h3 {
+.recipes1 {
+  margin-top: 2rem;
+  height: 40rem;
+}
+
+.recipeImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.sepia {
+  height: auto;
+  opacity: 0.3;
+  width: 70%;
+  border: 1px solid;
+}
+
+.centerd {
+  display: flex;
+  flex-direction: column;
+  transform: translate(44%, -105%);
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  justify-items: center;
+  width: 50%;
+  text-align: justify;
+}
+
+.centerd h3 {
   font-weight: 700;
 }
 
-.redTxt {
-  color: #ec5242;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.horizantalLine {
-  width: 25px;
-  border: 1px solid #d3d3d3;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.sports .card2 p {
+.centerd p {
   font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
 }
 
 .partner {
-  display: none;
+  text-align: center;
+  margin-top: 0;
+  background-color: #484141;
+  color: white;
+  padding-bottom: 7rem;
+}
+
+.partner h3 {
+  font-family: "Lato", sans-serif;
+  margin-top: 1rem;
+  padding-top: 4rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.partner .mozilla {
+  font-family: "Titan One", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.partner .google {
+  font-family: "Lato", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.partner .naver {
+  font-family: "Titan One", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+}
+
+.partner .daumkakao {
+  font-family: "Lato", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.partner .airbnb {
+  font-family: monospace;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
 }
 
 footer {
-  display: none;
+  display: flex;
+  background-color: #d3d3d3;
+}
+
+.left-side {
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 6rem;
+}
+
+.left-side p {
+  display: inline-block;
+  margin: 0;
+  line-height: 1.6rem;
+  text-align: left;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 900;
+}
+
+.right-side {
+  display: block;
+  margin-top: 8rem;
+  margin-left: 6rem;
+}
+
+.right-side p {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 768px) {
+  .humgurger {
+    display: none;
+  }
+
   * {
     font-size: 2rem;
-    font-family: "COCOGOOSE", sans-serif;
+    font-family: "Lato", sans-serif;
   }
 
   .container-fluid {
     background-color: #f7f3f3;
     height: 100%;
-    overflow: hidden;
-  }
-
-  #home {
-    min-height: 20px;
     overflow: hidden;
   }
 
@@ -318,8 +367,12 @@ footer {
     font-size: 1.2rem;
   }
 
+  .navItem li a:visited {
+    color: #ec5242;
+  }
+
   .socialMediaIcons .icon-bar a:hover {
-    text-decoration: wavy;
+      text-decoration: wavy;
     font-size: larger;
     border: 2px solid darkred;
     background-color: #ec5242;
@@ -334,66 +387,66 @@ footer {
   #navbar {
     display: flex;
     justify-content: space-between;
-    margin-top: -20px;
   }
 
   .navbar-brand {
-    display: flex;
-    min-height: 82px;
-    margin-left: 6rem;
+    display: block;
   }
 
   .navbar-brand img {
-    width: 52px;
-    height: 40px;
-    align-self: center;
-  }
-
-  .humgurger {
-    display: none;
+    width: 7vw;
+    height: 6vh;
+    margin-right: 53rem;
   }
 
   .navbar-header {
     float: left;
     background-color: white;
+    margin-top: -2rem;
   }
 
   #navMenu {
     font-size: 1.5rem;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", cursive;
     display: flex;
     position: relative;
     left: 0;
     padding-top: 0;
     background-color: white;
-    justify-content: end;
+    margin-top: -16px;
   }
 
-  #navMenu li {
+  #navMenu.active li {
     border: none;
     width: initial;
+    height: 22px;
     margin: 0;
     padding: 0;
   }
 
+  .navItem.active li a:visited {
+    border: 3px solid red;
+    background-color: blue;
+    font-size: larger;
+  }
+
   #navMenu li a {
+    font-family: "COCOGOOSE", sans-serif;
     font-size: 1rem;
-    color: #272a31;
-    font-family: "Lato", sans-serif;
-    padding: 33px;
-    padding-bottom: 0;
   }
 
   #navMenu li a:hover {
-    font-size: 1.3rem;
-    color: #ec5242;
-    border: 4px solid #ec5242;
-    background-color: #fff;
-    align-self: center;
+    border: 3px solid red;
+    text-decoration: wavy;
+    font-size: larger;
   }
 
   .navItem.active {
     width: auto;
+  }
+
+  footer p {
+    display: none;
   }
 
   .introduction p {
@@ -402,207 +455,34 @@ footer {
     color: #ec5242;
     font-family: "Lato", sans-serif;
     font-weight: 500;
+    display: none;
   }
 
   .introduction .secondHeader {
-    background-image: url("../images/bg2.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #ec5242;
     text-transform: uppercase;
-    font-family: "Cocogoose", sans-serif;
+    font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
     font-weight: 800;
-    -webkit-font-smoothing: antialiased;
     margin-left: 5.5rem;
     line-height: 6rem;
     font-size: 5rem;
   }
 
   #second-p {
-    width: 50%;
+    width: 62%;
     max-width: 100%;
-    border: 1px solid #d3d3d3;
+    border: 5px solid white;
     color: #272a31;
-    padding: 1.3rem;
-    font-family: "Lato", sans-serif;
+    padding: 1rem;
+    font-family: "Lato", cursive;
     margin-top: 5rem;
-    font-size: 1.7rem;
+    font-size: 2.7rem;
     line-height: 4rem;
-    background-image: url("../images/Nutrition-Background.jpg");
-    background-repeat: no-repeat;
-  }
-
-  .card {
-    width: 16%;
-    max-width: 100%;
-    display: inline-flex;
-    flex-direction: column;
-    backdrop-filter: contrast(0.5);
-    height: 32.2rem;
-    margin: 0;
-  }
-
-  .card img {
-    height: 29vh;
-    width: 10vw;
-    padding-top: 2rem;
-    align-self: center;
-  }
-
-  .card-title {
-    color: #ec5242;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-  }
-
-  .card-text {
-    font-family: "Lato", sans-serif;
-    text-align: start;
-    font-size: 1.3rem;
-  }
-
-  .card:hover {
-    border: 2px solid #d3d3d3;
-  }
-
-  #wholeProgram {
-    text-decoration-line: underline;
-    color: #d3d3d3;
-    font-family: "Lato", sans-serif;
-    font-weight: 800;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    background: none;
-    margin-left: 35rem;
-  }
-
-  .sports {
-    background-color: #d3d3d3;
-    background-image: none;
-  }
-
-  .sports .card1 {
-    width: 100%;
-    margin-left: 5rem;
-    margin-bottom: 0;
-    padding-bottom: 1px;
-  }
-
-  .sports .col-sm-6 .card1 img {
-    width: 14vw;
-    height: auto;
-  }
-
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-  }
-
-  .card2 h3 {
-    color: #272a31;
-    font-family: "Lato", sans-serif;
-  }
-
-  .redTxt {
-    padding: 0;
-  }
-
-  .card2 p {
-    font-family: "Lato", sans-serif;
-    font-size: 1.2rem;
-  }
-
-  .partner {
-    text-align: center;
-    margin-top: 0;
-    background-color: #272a31;
-    color: #d3d3d3;
-    padding-bottom: 7rem;
-    display: block;
-  }
-
-  .partner h3 {
-    font-family: "Lato", sans-serif;
-    margin-top: 1rem;
-    padding-top: 4rem;
-    font-size: 4rem;
-    font-weight: 800;
-  }
-
-  .partner .mozilla {
-    font-family: "Titan One", cursive;
-    text-align: left;
-    color: #d3d3d3;
-    font-size: 4rem;
-    padding-right: 10rem;
-  }
-
-  .partner .google {
-    font-family: monospace;
-    text-align: left;
-    color: #d3d3d3;
-    font-size: 4rem;
-    padding-right: 10rem;
-  }
-
-  .partner .naver {
-    font-family: "Anton", "COCOGOOSE", sans-serif;
-    text-align: left;
-    color: #d3d3d3;
-    font-size: 4rem;
-    margin-right: 3rem;
-  }
-
-  .partner .daumkakao {
-    font-family: "Lato", sans-serif;
-    text-align: left;
-    color: #d3d3d3;
-    font-size: 3rem;
-    padding-right: 10rem;
-  }
-
-  .partner .airbnb {
-    font-family: monospace;
-    text-align: left;
-    color: #d3d3d3;
-    font-size: 3rem;
+    display: inline-block;
+    margin-left: 5.5rem;
   }
 
   footer {
-    display: flex;
-    background-color: #d3d3d3;
-  }
-
-  .left-side {
-    display: block;
-    margin: 8rem;
-  }
-
-  .left-side p {
-    display: inline-block;
-    margin: 0;
-    line-height: 1.6rem;
-    text-align: left;
-    font-family: "COCOGOOSE", sans-serif;
-    font-weight: 900;
-  }
-
-  .right-side {
-    display: block;
-    margin: 8rem;
-    font-weight: 800;
-  }
-
-  .right-side p {
-    display: block;
-    font-family: "Lato", sans-serif;
-    font-size: 1.2rem;
-  }
-
-  .right-side :nth-child(2) {
-    font-weight: 200;
+    display: none;
   }
 }
