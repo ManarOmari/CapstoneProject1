@@ -30,12 +30,20 @@ body {
   font-weight: 700;
 }
 
-.centerd p {
-  width: 58%;
-  border: 1px solid;
+.centerd ol {
+  width: 85%;
   padding: 2rem;
-  border-radius: 15px;
-  line-height: 23px;
+  line-height: 30px;
+}
+
+ol li {
+  padding-left: 2rem;
+}
+
+ol li:hover {
+  font-size: 1.8rem;
+  border: 1px solid #ec5242;
+  color: #ec5242;
 }
 
 @media only screen and (min-width: 768px) {
@@ -61,7 +69,7 @@ body {
     padding-left: 2rem;
   }
 
-  ol li:hover{
+  ol li:hover {
     font-size: 1.8rem;
     border: 1px solid #ec5242;
     color: #ec5242;
