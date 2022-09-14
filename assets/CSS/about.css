@@ -49,6 +49,21 @@
   display: block;
 }
 
+.healthyRecipes p a {
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+}
+
+.centerd p a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  align-self: center;
+  font-weight: 700;
+}
+
 .navItem.active li:hover {
   border: 3px solid red;
 }
@@ -218,12 +233,6 @@ hr {
   font-size: 1.3rem;
 }
 
-.healthyRecipes p a {
-  color: #272a31;
-  font-family: "Lato", sans-serif;
-  font-size: 1.3rem;
-}
-
 .recipes1 {
   margin-top: 2rem;
   height: 24rem;
@@ -265,15 +274,6 @@ hr {
   width: max-content;
   font-size: 2rem;
   align-self: center;
-}
-
-.centerd p a {
-  text-decoration: none;
-  font-size: 1.7rem;
-  font-family: "Lato", sans-serif;
-  color: #272a31;
-  align-self: center;
-  font-weight: 700;
 }
 
 .centerd p a:hover {
