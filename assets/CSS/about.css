@@ -42,13 +42,6 @@
   margin-left: 2rem;
 }
 
-.introduction .third-p span a {
-  font-size: 1.4rem;
-  color: #272a31;
-  font-family: "Lato", sans-serif;
-  display: block;
-}
-
 .healthyRecipes p a {
   color: #272a31;
   font-family: "Lato", sans-serif;
@@ -62,6 +55,23 @@
   color: #272a31;
   align-self: center;
   font-weight: 700;
+}
+
+.introduction .third-p span a {
+  font-size: 1.4rem;
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  display: block;
+}
+
+.centerd p a:hover {
+  text-decoration: dotted;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  align-self: center;
+  font-weight: 700;
+  border: 2px solid #ec5242;
 }
 
 .navItem.active li:hover {
@@ -274,16 +284,6 @@ hr {
   width: max-content;
   font-size: 2rem;
   align-self: center;
-}
-
-.centerd p a:hover {
-  text-decoration: dotted;
-  font-size: 2rem;
-  font-family: "Lato", sans-serif;
-  color: #272a31;
-  align-self: center;
-  font-weight: 700;
-  border: 2px solid #ec5242;
 }
 
 .partner {
