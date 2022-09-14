@@ -157,6 +157,14 @@ hr {
   background-color: white;
 }
 
+.logo .b {
+  display: none;
+}
+
+.logo .a {
+  display: block;
+}
+
 .logo h2 {
   padding-top: 5rem;
   font-family: "Lato", sans-serif;
@@ -331,19 +339,27 @@ footer {
   font-size: 1.2rem;
 }
 
-@media only screen and (min-width: 768px) {
-  .humgurger {
-    display: none;
-  }
+.a {
+  display: block;
+}
 
+.b {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
   * {
     font-size: 2rem;
-    font-family: "Lato", sans-serif;
+    font-family: "COCOGOOSE", sans-serif;
   }
 
   .container-fluid {
     background-color: #f7f3f3;
     height: 100%;
+    overflow: hidden;
+  }
+
+  #home {
+    min-height: 20px;
     overflow: hidden;
   }
 
@@ -367,12 +383,8 @@ footer {
     font-size: 1.2rem;
   }
 
-  .navItem li a:visited {
-    color: #ec5242;
-  }
-
   .socialMediaIcons .icon-bar a:hover {
-      text-decoration: wavy;
+    text-decoration: wavy;
     font-size: larger;
     border: 2px solid darkred;
     background-color: #ec5242;
@@ -387,81 +399,88 @@ footer {
   #navbar {
     display: flex;
     justify-content: space-between;
+    margin-top: -20px;
   }
 
   .navbar-brand {
-    display: block;
+    display: flex;
+    min-height: 82px;
+    margin-left: 6rem;
   }
 
   .navbar-brand img {
-    width: 7vw;
-    height: 6vh;
-    margin-right: 53rem;
+    width: 52px;
+    height: 40px;
+    align-self: center;
+  }
+
+  .humgurger {
+    display: none;
   }
 
   .navbar-header {
     float: left;
     background-color: white;
-    margin-top: -2rem;
   }
 
   #navMenu {
     font-size: 1.5rem;
-    font-family: "Lato", cursive;
+    font-family: "Lato", sans-serif;
     display: flex;
     position: relative;
     left: 0;
     padding-top: 0;
     background-color: white;
-    margin-top: -16px;
+    justify-content: end;
   }
 
-  #navMenu.active li {
+  #navMenu li {
     border: none;
     width: initial;
-    height: 22px;
     margin: 0;
     padding: 0;
   }
 
-  .navItem.active li a:visited {
-    border: 3px solid red;
-    background-color: blue;
-    font-size: larger;
-  }
-
   #navMenu li a {
-    font-family: "COCOGOOSE", sans-serif;
     font-size: 1rem;
+    color: #272a31;
+    font-family: "Lato", sans-serif;
+    padding: 33px;
+    padding-bottom: 0;
   }
 
   #navMenu li a:hover {
-    border: 3px solid red;
-    text-decoration: wavy;
-    font-size: larger;
+    font-size: 1.3rem;
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    background-color: #fff;
+    align-self: center;
   }
 
   .navItem.active {
     width: auto;
   }
 
-  footer p {
-    display: none;
+  .introduction {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10rem;
   }
 
   .introduction p {
-    margin-left: 5.5rem;
     font-size: 4rem;
     color: #ec5242;
     font-family: "Lato", sans-serif;
-    font-weight: 500;
-    display: none;
   }
 
   .introduction .secondHeader {
     color: #ec5242;
     text-transform: uppercase;
-    font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-weight: 800;
     margin-left: 5.5rem;
     line-height: 6rem;
@@ -469,20 +488,97 @@ footer {
   }
 
   #second-p {
-    width: 62%;
+    width: 50%;
     max-width: 100%;
-    border: 5px solid white;
+    border: 1px solid #d3d3d3;
     color: #272a31;
-    padding: 1rem;
-    font-family: "Lato", cursive;
+    padding: 1.3rem;
+    font-family: "Lato", sans-serif;
     margin-top: 5rem;
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     line-height: 4rem;
-    display: inline-block;
-    margin-left: 5.5rem;
   }
 
-  footer {
+  .logo .a {
     display: none;
+  }
+
+  .logo .b {
+    display: block;
+  }
+
+  .logo img {
+    width: 30rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .recipes1 {
+    display: flex;
+    width: 50%;
+  }
+
+  .sepia {
+    width: 40rem;
+  }
+
+  .centerd {
+    display: flex;
+    flex-direction: column;
+    transform: translate(9%, 25%);
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    justify-items: center;
+    width: 26%;
+    text-align: justify;
+    position: absolute;
+  }
+
+ 
+  footer {
+    display: flex;
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  .left-side {
+    display: block;
+    margin: 8rem;
+  }
+
+  .left-side p {
+    display: inline-block;
+    margin: 0;
+    line-height: 1.6rem;
+    text-align: left;
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 900;
+  }
+
+  .right-side {
+    display: block;
+    margin: 8rem;
+    font-weight: 800;
+  }
+
+  .right-side p {
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .right-side :nth-child(2) {
+    font-weight: 200;
+  }
+
+  .a {
+    display: none;
+  }
+  
+  .b {
+    display: block;
   }
 }
