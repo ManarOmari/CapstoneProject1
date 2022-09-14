@@ -157,6 +157,14 @@ hr {
   background-color: white;
 }
 
+.a {
+  display: block;
+}
+
+.b {
+  display: none;
+}
+
 .logo .b {
   display: none;
 }
@@ -339,13 +347,6 @@ footer {
   font-size: 1.2rem;
 }
 
-.a {
-  display: block;
-}
-
-.b {
-  display: none;
-}
 @media only screen and (min-width: 768px) {
   * {
     font-size: 2rem;
@@ -499,8 +500,16 @@ footer {
     line-height: 4rem;
   }
 
+  .a {
+    display: none;
+  }
+
   .logo .a {
     display: none;
+  }
+
+  .b {
+    display: block;
   }
 
   .logo .b {
@@ -537,7 +546,6 @@ footer {
     position: absolute;
   }
 
- 
   footer {
     display: flex;
     background-color: #272a31;
@@ -572,13 +580,5 @@ footer {
 
   .right-side :nth-child(2) {
     font-weight: 200;
-  }
-
-  .a {
-    display: none;
-  }
-  
-  .b {
-    display: block;
   }
 }
