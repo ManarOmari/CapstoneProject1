@@ -231,7 +231,7 @@ hr {
   color: #272a31;
 }
 
-.sports .col-sm-6  {
+.sports .col-sm-6 {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
@@ -240,7 +240,7 @@ hr {
 
 .sports .col-sm-6 .card1 img {
   width: 14rem;
-  height: -webkit-fill-available;
+  height: 100%;
   margin-left: 5rem;
 }
 
