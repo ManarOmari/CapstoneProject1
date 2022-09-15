@@ -28,6 +28,7 @@
 
 .navItem.active {
   left: 0;
+  z-index: 1000;
 }
 
 .navItem li {
