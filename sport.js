@@ -4,7 +4,6 @@ const row = document.createElement('div');
 row.className = 'row';
 
 const sport = [
-  
   {
     img: 'assets/images/walking2.jpg',
     title: 'Walking',
@@ -41,7 +40,6 @@ const sport = [
     description:
       'Lie on your stomach. The legs are parallel. Stretch out your arms above your head and put them down. ',
   },
-  
 ];
 function createCard() {
   for (let i = 0; i < sport.length; i += 1) {
