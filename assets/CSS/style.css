@@ -231,7 +231,7 @@ hr {
   color: #272a31;
 }
 
-.sports .col-sm-6 .card1 {
+.sports .col-sm-6  {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
@@ -239,8 +239,9 @@ hr {
 }
 
 .sports .col-sm-6 .card1 img {
-  width: 30%;
-  height: 20%;
+  width: 14rem;
+  height: -webkit-fill-available;
+  margin-left: 5rem;
 }
 
 .sports .card2 {
@@ -264,13 +265,14 @@ hr {
 
 .horizantalLine {
   width: 25px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #272a31;
   margin-left: 0;
   margin-top: 0;
 }
 
 .sports .card2 p {
   font-size: 1.3rem;
+  margin-top: -9px;
 }
 
 .partner {
@@ -483,22 +485,30 @@ footer {
     background-image: none;
   }
 
-  .sports .card1 {
-    width: 100%;
-    margin-left: 5rem;
-    margin-bottom: 0;
-    padding-bottom: 1px;
+  .sports .row {
+    margin-left: 10rem;
+    margin-bottom: 8rem;
+  }
+
+  .sports .col-sm-6 {
+    width: 40%;
+    margin: 0;
+    display: flex;
+  }
+
+  .sports .col-sm-6 .card1 {
+    display: contents;
   }
 
   .sports .col-sm-6 .card1 img {
     width: 14vw;
     height: auto;
+    margin-bottom: 2rem;
   }
 
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+  .sports .col-sm-6 .card2 {
+    padding-left: 1rem;
+    width: 50%;
   }
 
   .card2 h3 {
