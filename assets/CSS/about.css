@@ -1,0 +1,609 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+* {
+  font-size: 2rem;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.container-fluid {
+  background-color: #d3d3d3;
+  background-image: url("../images/Nutrition-Background.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.socialMediaIcons {
+  display: none;
+}
+
+.navItem {
+  position: fixed;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  gap: 0;
+  color: rgb(51, 47, 47);
+  font-size: 3.6rem;
+  padding: 4rem;
+  text-align: center;
+  background-color: #f7f3f3;
+}
+
+.navItem.active {
+  left: 0;
+  width: 100%;
+}
+
+.navItem li {
+  padding: 2rem;
+  border: 3px solid gainsboro;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.healthyRecipes p a {
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+}
+
+.centerd p a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  align-self: center;
+  font-weight: 700;
+}
+
+.introduction .third-p span a {
+  font-size: 1.4rem;
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  display: block;
+}
+
+.centerd p a:hover {
+  text-decoration: dotted;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  align-self: center;
+  font-weight: 700;
+  border: 2px solid #ec5242;
+}
+
+.navItem.active li:hover {
+  border: 3px solid red;
+}
+
+.navItem.active li a:focus {
+  border: 3px solid green;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.humgurger {
+  display: block;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+
+.humgurger .bar {
+  background-color: #272a31;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.humgurger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.humgurger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.humgurger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.introduction {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+footer p {
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  padding-top: 5rem;
+  display: inline-block;
+}
+
+.introduction p {
+  font-size: 2.5rem;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+}
+
+.secondHeader {
+  font-size: 3rem;
+  color: #ec5242;
+  text-transform: uppercase;
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 800;
+  display: flex;
+}
+
+#second-p {
+  width: 85%;
+  max-width: 100%;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
+  padding: 0.3rem;
+  margin-top: 5rem;
+  font-size: 1.7rem;
+  background-color: #fff;
+  text-align: center;
+  margin-left: 5.5rem;
+}
+
+.introduction .third-p {
+  font-size: 1.2rem;
+  color: #272a31;
+  margin-top: 4rem;
+  font-family: "Lato", sans-serif;
+  margin-left: 13rem;
+  width: 50%;
+}
+
+.introduction .third-p span {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+hr {
+  width: 80px;
+  color: #ec5242;
+  background-color: #ec5242;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.a {
+  display: block;
+}
+
+.b {
+  display: none;
+}
+
+.logo .b {
+  display: none;
+}
+
+.logo .a {
+  display: block;
+}
+
+.logo h2 {
+  padding-top: 5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+.logo p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #272a31;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  border: 2px solid #d3d3d3;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+  width: 80%;
+  height: 50vh;
+  align-self: center;
+}
+
+.healthyRecipes {
+  background-color: #fff;
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.healthyRecipes h2 {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.healthyRecipes p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+}
+
+.recipes1 {
+  margin-top: 2rem;
+  height: 24rem;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.recipeImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  height: 20rem;
+}
+
+.sepia {
+  opacity: 0.3;
+  width: 25rem;
+  height: 20rem;
+  border: 1px solid;
+}
+
+.centerd {
+  display: flex;
+  flex-direction: column;
+  transform: translate(48%, -175%);
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  justify-items: center;
+  width: 50%;
+  text-align: justify;
+}
+
+.centerd h3 {
+  font-weight: 700;
+  width: max-content;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.partner {
+  text-align: center;
+  margin-top: 0;
+  background-color: #484141;
+  color: white;
+  padding-bottom: 7rem;
+}
+
+.partner h3 {
+  font-family: "Lato", sans-serif;
+  margin-top: 1rem;
+  padding-top: 4rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.partner .mozilla {
+  font-family: "Titan One", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.partner .google {
+  font-family: "Lato", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.partner .naver {
+  font-family: "Titan One", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+}
+
+.partner .daumkakao {
+  font-family: "Lato", cursive;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.partner .airbnb {
+  font-family: monospace;
+  text-align: left;
+  color: grey;
+  font-size: 4rem;
+}
+
+footer {
+  display: flex;
+  background-color: #d3d3d3;
+}
+
+.left-side {
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 6rem;
+}
+
+.left-side p {
+  display: inline-block;
+  margin: 0;
+  line-height: 1.6rem;
+  text-align: left;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 900;
+}
+
+.right-side {
+  display: block;
+  margin-top: 8rem;
+  margin-left: 6rem;
+}
+
+.right-side p {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    font-size: 2rem;
+    font-family: "COCOGOOSE", sans-serif;
+  }
+
+  .container-fluid {
+    background-color: #f7f3f3;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #home {
+    min-height: 20px;
+    overflow: hidden;
+  }
+
+  .socialMediaIcons {
+    display: flex;
+    background-color: #272a31;
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .socialMediaIcons .icon-bar {
+    margin-right: 7rem;
+  }
+
+  .socialMediaIcons .icon-bar a {
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .socialMediaIcons .icon-bar a:hover {
+    text-decoration: wavy;
+    font-size: larger;
+    border: 2px solid darkred;
+    background-color: #ec5242;
+  }
+
+  .socialMediaIcons .icon-bar a:focus {
+    border: 3px solid red;
+    text-decoration: wavy;
+    font-size: larger;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+  }
+
+  .navbar-brand {
+    display: flex;
+    min-height: 82px;
+    margin-left: 6rem;
+  }
+
+  .navbar-brand img {
+    width: 52px;
+    height: 40px;
+    align-self: center;
+  }
+
+  .humgurger {
+    display: none;
+  }
+
+  .navbar-header {
+    float: left;
+    background-color: white;
+  }
+
+  #navMenu {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    position: relative;
+    left: 0;
+    padding-top: 0;
+    background-color: white;
+    justify-content: end;
+  }
+
+  #navMenu li {
+    border: none;
+    width: initial;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navMenu li a {
+    font-size: 1rem;
+    color: #272a31;
+    font-family: "Lato", sans-serif;
+    padding: 33px;
+    padding-bottom: 0;
+  }
+
+  #navMenu li a:hover {
+    font-size: 1.3rem;
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    background-color: #fff;
+    align-self: center;
+  }
+
+  .navItem.active {
+    width: auto;
+  }
+
+  .introduction {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
+  .introduction p {
+    font-size: 4rem;
+    color: #ec5242;
+    font-family: "Lato", sans-serif;
+  }
+
+  .introduction .secondHeader {
+    color: #ec5242;
+    text-transform: uppercase;
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 800;
+    margin-left: 5.5rem;
+    line-height: 6rem;
+    font-size: 5rem;
+  }
+
+  #second-p {
+    width: 50%;
+    max-width: 100%;
+    border: 1px solid #d3d3d3;
+    color: #272a31;
+    padding: 1.3rem;
+    font-family: "Lato", sans-serif;
+    margin-top: 5rem;
+    font-size: 1.7rem;
+    line-height: 4rem;
+  }
+
+  .a {
+    display: none;
+  }
+
+  .logo .a {
+    display: none;
+  }
+
+  .b {
+    display: block;
+  }
+
+  .logo .b {
+    display: block;
+  }
+
+  .logo img {
+    width: 30rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .recipes1 {
+    display: flex;
+    width: 50%;
+  }
+
+  .sepia {
+    width: 40rem;
+  }
+
+  .centerd {
+    display: flex;
+    flex-direction: column;
+    transform: translate(9%, 25%);
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    justify-items: center;
+    width: 26%;
+    position: absolute;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  .left-side {
+    display: block;
+    margin: 8rem;
+  }
+
+  .left-side p {
+    display: inline-block;
+    margin: 0;
+    line-height: 1.6rem;
+    text-align: left;
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 900;
+  }
+
+  .right-side {
+    display: block;
+    margin: 8rem;
+    font-weight: 800;
+  }
+
+  .right-side p {
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .right-side :nth-child(2) {
+    font-weight: 200;
+  }
+}

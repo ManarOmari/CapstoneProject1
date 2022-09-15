@@ -1,0 +1,77 @@
+body {
+  background-color: #d3d3d3;
+}
+
+.recipeImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.sepia {
+  width: 29rem;
+  height: 21rem;
+  padding: 2rem;
+  align-self: center;
+  margin-top: 4rem;
+}
+
+.centerd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: "Lato", sans-serif;
+}
+
+.centerd h3 {
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.centerd ol {
+  width: 85%;
+  padding: 2rem;
+  line-height: 30px;
+}
+
+ol li {
+  padding-left: 2rem;
+}
+
+ol li:hover {
+  font-size: 1.8rem;
+  border: 1px solid #ec5242;
+  color: #ec5242;
+}
+
+@media only screen and (min-width: 768px) {
+  .sepia {
+    width: 69rem;
+    height: 32rem;
+    padding: 2rem;
+    align-self: center;
+    margin-top: 4rem;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+
+  .centerd ol {
+    width: 58%;
+    padding: 2rem;
+    line-height: 40px;
+    font-weight: 800;
+    border: none;
+  }
+
+  ol li {
+    padding-left: 2rem;
+  }
+
+  ol li:hover {
+    font-size: 1.8rem;
+    border: 1px solid #ec5242;
+    color: #ec5242;
+  }
+}
