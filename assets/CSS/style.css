@@ -469,6 +469,10 @@ footer {
     border: 2px solid #d3d3d3;
   }
 
+  .card:focus {
+    border: 2px solid #d3d3d3;
+  }
+
   #wholeProgram {
     text-decoration-line: underline;
     color: #d3d3d3;
